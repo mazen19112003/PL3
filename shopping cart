@@ -9,14 +9,7 @@ type Product = {
     Description: string
 }
 
-// Product catalog
-let productCatalog: Product list = [
-    { Name = "Laptop"; Price = 1200.0; Description = "A high-performance laptop" }
-    { Name = "Smartphone"; Price = 800.0; Description = "A smartphone with great features" }
-    { Name = "Headphones"; Price = 150.0; Description = "Noise-canceling headphones" }
-    { Name = "Mouse"; Price = 25.0; Description = "A wireless mouse" }
-    { Name = "Keyboard"; Price = 45.0; Description = "A mechanical keyboard" }
-]
+
 
 // Mutable cart
 let mutable cart: Product list = []
